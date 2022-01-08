@@ -1,0 +1,17 @@
+If we are using Node i.e. greater than ^v14-
+
+For creating a new react app using command line:
+
+npx create-react-app <App Name>
+
+If we are using Node i.e. less than ^v14-
+
+npm uninstall -g create-react-app
+npm install -g create-react-app@3.4.1
+create-react-app <App Name> --scripts-version 3.1.1
+
+Note- App name should be in small case or camel case without space.
+
+Shortcut for opening folder in VS code -> ctrl + K + O
+
+For start -> npm start
